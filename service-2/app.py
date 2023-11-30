@@ -23,7 +23,7 @@ crud = RAFTFactory(service_info).create_server()
 app = Flask(__name__)
 
 SWAGGER_URL = '/api/docs2'
-API_URL = '/models/swagger.json'
+API_URL = '/static/swagger.json'
 
 # Configure sqlite database
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///db_service_2.db'
